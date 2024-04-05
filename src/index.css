@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.card{
+
+  width: 30vw;
+  height: 100hw;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 8rem;
+  margin-left: 30rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-color: bisque;
+}
+
+
+
+img{
+  height: 20rem;
+  width: 20rem;
+  padding-top: 10px;
+  padding-left: 65px;
+  border-radius: 15px;
+}
+
+.cardname{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
